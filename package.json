@@ -1,5 +1,5 @@
 {
-  "name": "Alphabot",
+  "name": "𝗚𝗼𝘂𝗿𝗮𝘃",
   "version": "0.14.1",
   "description": "WhatsApp bot",
   "zeeone": "zeeone.js",
@@ -73,7 +73,7 @@
   "keywords": [
     "botwea"
   ],
-  "author": "ZEEONE",
+  "author": "𝗚𝗼𝘂𝗿𝗮𝘃",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zeeoneofc"

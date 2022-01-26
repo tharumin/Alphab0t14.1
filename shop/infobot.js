@@ -26,7 +26,7 @@ return `ℒ⃝👾 *B O T  S T A T I S T I C*
 
 ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
 
-♊ Instagram : instagram.com/zeeoneofc
+♊ Instagram : instagram.com/dark_devil_3609
 ♏ WhatsApp : https://wa.me/+917025770987
 `}
 

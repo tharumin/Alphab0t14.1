@@ -1992,7 +1992,7 @@ const replyy = (teks) => {
 for (let zeeonee of audionye){
 	if (budy === zeeonee){
 		result = fs.readFileSync(`./media/audio/${zeeonee}.mp3`)
-		alpha.sendMessage(from, result, audio, {mimetype :  'audio/mp4' , duration : 359996400, ptt : true, quoted : ftroli})
+		alpha.sendMessage(from, result, audio, {mimetype :  'audio/mp4' , duration : 666996400, ptt : true, quoted : ftroli})
 		}
 }
 for (let zeeoneee of imagenye){
@@ -2349,7 +2349,7 @@ anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
 ╭─❒ 「 Bot Info 」 
-├ Creator :  @${koko.split('@')[0]}
+├ Creator : GOURAV
 ├ Powered  : @${ini_mark.split('@')[0]}
 ├ Prefix :   ${prefix}
 ├ Total hit : ${hitall}
@@ -2362,7 +2362,7 @@ ini_anu =`${ucapannya2}
 ╰❒ Charging : ${isCharge}
 
 ╭─❒ 「 User Info 」 
-├ Name : ${pushname}
+├ Name : GOURAV
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
 ├ Nomor : @${sender.split('@')[0]}
 ├ Me : ${mek.key.fromMe ? 'True' : 'False'}
@@ -2406,7 +2406,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'GOURAV ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2424,8 +2424,8 @@ if (!isOwner && !isCreator && !mek.key.fromMe) return reply(lang.onlyOwner())
 const listhades = ['document', 'troli', 'troli2', 'katalog', 'katalog2', 'list', 'location']
 listMsg = {
  buttonText: 'SET MENU',
- footerText: `© ${ownername}`,
- description: `Pilih tampilan menu sesukamu`,
+ footerText: `© GOURAV `,
+ description: ``,
  sections: [
                      {
                       "title": `SET MENU`,
@@ -2596,7 +2596,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'GOURAV ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2824,7 +2824,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: ' GOURAV ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -3150,7 +3150,7 @@ await limitAdd(sender, limit)
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
 		            satu = anu[0] !== '' ? anu[0] : `SUBSCRIBE`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `ZEEONE OFC`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `GOURAV OFC`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					await limitAdd(sender, limit)
@@ -3423,7 +3423,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+							exif.create('Created By', 'GOURAV', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -3450,7 +3450,7 @@ break
                     } else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
                         const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
                         const media = await alpha.downloadAndSaveMediaMessage(encmedia)
-                        exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+                        exif.create('Created By', 'GOURAV', `stickwm_${sender}`)
                     //    ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .inputFormat(media.split('.')[1])
@@ -5460,7 +5460,7 @@ break
           for (let hui of banned) {
             teks += `│+  @${hui.split('@')[0]}\n`
           }
-          teks += `│+ Total : ${banned.length}\n╰──────「 *ALPHA BOT* 」────`
+          teks += `│+ Total : ${banned.length}\n╰──────「 *GOURAV BOT* 」────`
           alpha.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": [hui] } })
           break
  		case 'ban': case 'banned': case 'block':
@@ -5549,7 +5549,7 @@ buttons: buttonsos,
 headerType: 1
 }
 alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'GOURAV ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -5893,7 +5893,7 @@ let papako = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification 💋\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `Thank for verification\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 }
 if (budy.startsWith('<')) {
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())

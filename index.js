@@ -186,11 +186,11 @@ let antihidetag = setting.antihidetag
 banChats = setting.self_mode
 autorespon = true
 offline = false
-readGc = true 
+readGc = false
 readPc = false 
 antitrol = false 
 bugc = false
-autovn = true
+autovn = false
 autoketik = false
 autoregister = setting.user_register
 typemenu = 'document'
@@ -3149,8 +3149,8 @@ await limitAdd(sender, limit)
 		            var encmedia_ = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
-		            satu = anu[0] !== '' ? anu[0] : `SUBSCRIBE`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `GOURAV OFC`
+		            satu = anu[0] !== '' ? anu[0] : `BOT 🤖`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `GOURAV`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					await limitAdd(sender, limit)

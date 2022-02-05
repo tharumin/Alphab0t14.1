@@ -117,12 +117,11 @@ const download = (prefix) => {
 `
 }
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
-	return`❏───「 *WHATSAPP BOT* 」───❏
+	return`❏───「 *GS BOT* 」───❏
                                
 ${ucapannya2}
-⏰ Jam : ${timuu} Server Time
-🎀 Hari : ${thisDay}
-🗓️ Tanggal : ${ini_tanggal}
+⏰ Time : ${timuu} Server Time
+🗓️ Day : ${ini_tanggal}
 
 *Convert Menu*
 ${numberik} ${prefix}tts  [query]
@@ -482,7 +481,6 @@ ${numberik} ${prefix}emoji 👼
  
  *Image Effect*
 ${numberik} ${prefix}trigger
-${numberik} ${prefix}gay
 ${numberik} ${prefix}glass
 ${numberik} ${prefix}passed
 ${numberik} ${prefix}jail
@@ -762,12 +760,10 @@ ${numberik} ${prefix}kapankah [query]
  *Nsfw & Sfw*
 ${numberik} ${prefix}hentaivid
 ${numberik} ${prefix}ahegao
-${numberik} ${prefix}ass
 ${numberik} ${prefix}bdsm
 ${numberik} ${prefix}blowjob
 ${numberik} ${prefix}blowjob2
 ${numberik} ${prefix}cuckold
-${numberik} ${prefix}cum
 ${numberik} ${prefix}ero
 ${numberik} ${prefix}femdom
 ${numberik} ${prefix}foot
@@ -779,7 +775,6 @@ ${numberik} ${prefix}masturbation
 ${numberik} ${prefix}neko
 ${numberik} ${prefix}orgy
 ${numberik} ${prefix}panties
-${numberik} ${prefix}pussy
 ${numberik} ${prefix}tentacles
 ${numberik} ${prefix}thighs
 ${numberik} ${prefix}yuri
@@ -794,8 +789,6 @@ ${numberik} ${prefix}avatar
 ${numberik} ${prefix}hololewd
 ${numberik} ${prefix}gecg
 ${numberik} ${prefix}holo
-${numberik} ${prefix}fox_girl
-${numberik} ${prefix}tits
 ${numberik} ${prefix}eroyuri
 ${numberik} ${prefix}holoyero
 ${numberik} ${prefix}lizard
@@ -803,7 +796,6 @@ ${numberik} ${prefix}keta
 ${numberik} ${prefix}eron
 ${numberik} ${prefix}erok
 ${numberik} ${prefix}kemonomimi
-${numberik} ${prefix}cum_jpg
 ${numberik} ${prefix}nsfw_avatar
 ${numberik} ${prefix}erofeet
 ${numberik} ${prefix}meow
@@ -811,7 +803,6 @@ ${numberik} ${prefix}wallpaper
 ${numberik} ${prefix}waifu
 ${numberik} ${prefix}trap
 ${numberik} ${prefix}lewd
-${numberik} ${prefix}pussy_jpg
 ${numberik} ${prefix}futanari
 ${numberik} ${prefix}lewdk
 ${numberik} ${prefix}solog
@@ -826,17 +817,12 @@ ${numberik} ${prefix}pat
 ${numberik} ${prefix}poke
 ${numberik} ${prefix}feed
 ${numberik} ${prefix}nsfw_neko_gif
-${numberik} ${prefix}pussy
 ${numberik} ${prefix}feetg
 ${numberik} ${prefix}baka
-${numberik} ${prefix}hug
-${numberik} ${prefix}kiss
 ${numberik} ${prefix}tickle
 ${numberik} ${prefix}spank
 ${numberik} ${prefix}kuni
 ${numberik} ${prefix}classic
-${numberik} ${prefix}boobs
-${numberik} ${prefix}anal
 ${numberik} ${prefix}ngif
 ${numberik} ${prefix}cuddle
 ${numberik} ${prefix}zettai
@@ -886,24 +872,6 @@ ${numberik} ${prefix}katacaklontong
 ${numberik} ${prefix}katadilan  
 
  *Cogan  Menu* 
-${numberik} ${prefix}baekhyung  
-${numberik} ${prefix}dohkyungsoo  
-${numberik} ${prefix}huangzitao  
-${numberik} ${prefix}jhope  
-${numberik} ${prefix}jimin 
-${numberik} ${prefix}jungkook 
-${numberik} ${prefix}kimjondae  
-${numberik} ${prefix}kimjong  
-${numberik} ${prefix}kimjunmyeon  
-${numberik} ${prefix}kimminseok 
-${numberik} ${prefix}kimnanjoon  
-${numberik} ${prefix}kimseok  
-${numberik} ${prefix}kimtaehyung  
-${numberik} ${prefix}luhan  
-${numberik} ${prefix}ohsehun 
-${numberik} ${prefix}parkchanyeol 
-${numberik} ${prefix}suga  
-${numberik} ${prefix}wuyifan
 
  *Asupan  Menu* 
 ${numberik} ${prefix}rikagusriani 
@@ -958,7 +926,7 @@ ${numberik} ${prefix}yuzuki
 ${numberik} ${prefix}akame
 ${numberik} ${prefix}mikosiba
 
-❏───「 *WHATSAPP BOT* 」───❏
+❏───「 *GS BOT* 」───❏
 `
 }
 
@@ -1487,7 +1455,6 @@ const nsfw = (prefix) => {
 │
 ├❒ ${prefix}hentaivid
 ├❒ ${prefix}ahegao
-├❒ ${prefix}ass
 ├❒ ${prefix}bdsm
 ├❒ ${prefix}blowjob
 ├❒ ${prefix}blowjob2
@@ -1551,16 +1518,12 @@ const nsfw = (prefix) => {
 ├❒ ${prefix}poke
 ├❒ ${prefix}feed
 ├❒ ${prefix}nsfw_neko_gif
-├❒ ${prefix}pussy
 ├❒ ${prefix}feetg
 ├❒ ${prefix}baka
-├❒ ${prefix}hug
-├❒ ${prefix}kiss
 ├❒ ${prefix}tickle
 ├❒ ${prefix}spank
 ├❒ ${prefix}kuni
 ├❒ ${prefix}classic
-├❒ ${prefix}boobs
 ├❒ ${prefix}anal
 ├❒ ${prefix}ngif
 ├❒ ${prefix}cuddle
@@ -1672,24 +1635,7 @@ const image_effect_menu = (prefix) => {
 const coganmenu = (prefix) => {
 	return`┌❑ *GACHA COGAN* ❑
 │
-├❒ ${prefix}baekhyung  
-├❒ ${prefix}dohkyungsoo  
-├❒ ${prefix}huangzitao  
-├❒ ${prefix}jhope  
-├❒ ${prefix}jimin 
-├❒ ${prefix}jungkook 
-├❒ ${prefix}kimjondae  
-├❒ ${prefix}kimjong  
-├❒ ${prefix}kimjunmyeon  
-├❒ ${prefix}kimminseok 
-├❒ ${prefix}kimnanjoon  
-├❒ ${prefix}kimseok  
-├❒ ${prefix}kimtaehyung  
-├❒ ${prefix}luhan  
-├❒ ${prefix}ohsehun 
-├❒ ${prefix}parkchanyeol 
-├❒ ${prefix}suga  
-└❒ ${prefix}wuyifan  
+├❒ ${prefix}SORRY
 `
 }
 

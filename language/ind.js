@@ -8,13 +8,13 @@ exports.event = (prefix) =>{
 	return` ⚠️ Event grup belum di aktifkan, kirim perintah ${prefix}event on untuk mengaktifkan`
 }
 exports.wait = () => {
-	return `\`\`\`[ ! ] Proses kak...\`\`\``
+	return `\`\`\`[ ! ] processing...\`\`\``
 	}
 exports.success = () => {
 	return `✅ Selesai...`
 	}
 exports.successBc = () => {
-	return `✅ Sukses Broadcast`
+	return `✅ Successful  Broadcast`
 	}
 exports.wrongFormat = () => {
 	return `❎ Format salah, coba liat lagi di menu`
@@ -23,7 +23,7 @@ exports.erorStik = () => {
 	return `❎ Itu bukan stiker`
 	}
 exports.tagStik = () => {
-	return `❎ Reply/tag stiker nya`
+	return `❎ Reply/tag sticker`
 	}
 exports.erorLink = () => {
 	return `❎ Linknya error`
@@ -50,7 +50,7 @@ exports.pesanBot = () => {
 	return `❎ Reply pesan botnya`
 	}
 exports.replyFoto = () => {
-	return `❎ Reply fotonya`
+	return `❎ Reply photo `
 	}
 exports.tagUser = () => {
 	return `❎ Tag @user`

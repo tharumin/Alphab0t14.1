@@ -185,7 +185,7 @@ let antihidetag = setting.antihidetag
 
 banChats = setting.self_mode
 autorespon = true
-offline = false
+offline = true
 readGc = false
 readPc = false 
 antitrol = false 
@@ -196,7 +196,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://zeeoneofc.github.io/'
+apiku = 'https://gourav.github.io/'
 gc_wa_lu = '' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -379,12 +379,12 @@ await alpha.updatePresence(from, Presence.composing)
 	}
 	return admins
 }
-		const timi = moment.tz('Asia/Jakarta').add(30, 'days').calendar();
-		const timu = moment.tz('Asia/Jakarta').add(20, 'days').calendar();
-		const wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
-		const wib = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
-		const wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-		const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
+		const timi = moment.tz('Asia/Mumbai').add(30, 'days').calendar();
+		const timu = moment.tz('Asia/Mumbai').add(20, 'days').calendar();
+		const wita = moment.tz('Asia/Mumbai').format('HH:mm:ss')
+		const wib = moment(Date.now()).tz('Asia/Mumbai').locale('id').format('HH:mm:ss z')
+		const wit = moment.tz('Asia/Mumbai').format('HH:mm:ss')
+		const salam = moment(Date.now()).tz('Asia/Mumbai').locale('id').format('a')
 		const totalchat = await alpha.chats.all()
 		const totalgroup = await alpha.chats.array.filter(v => v.jid.endsWith('g.us'))
         const totalkontak = await alpha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -403,7 +403,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isEventon = isGroup ? event.includes(from) : false
 		const isSewa = _sewa.checkSewaGroup(from, sewa)
-		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `62857101331033@s.whatsapp.net`]
+		const alphaNumber = [`917025770987@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `917025770987@s.whatsapp.net`]
 		const isCreator = alphaNumber.includes(sender)
 		const isPremium = isOwner || isCreator || mek.key.fromMe ? true : premium.checkPremiumUser(sender, _premium)
 		const gcount = isPremium ? gcounttprem : gcounttuser
@@ -1190,7 +1190,7 @@ const bayarLimit = (sender, amount) => {
 																												} else if (levelRole <= 99999999999999) {
 																													role = 'Pro × GrandLegends 숒'
 																												}
-            const timuu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+            const timuu = moment.tz('Asia/Mumbai').format('HH:mm:ss')
 			const hariRaya = new Date('Jan 12, 2022 07:00:00')
 			const sekarang = new Date().getTime();
 			const Selisih = hariRaya - sekarang;
@@ -1234,8 +1234,8 @@ const bayarLimit = (sender, amount) => {
             var tampilTanggal = "" + hari + ", " + tanggal + " " + bulan1 + " " + tahun;
             var tampilWaktu = "" + "Time : " + wib;     
             
-            myMonths = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
-                myDays = ['Minggu','Senin','Selasa','Rabu','Kamis',"Jum'at",'Sabtu'];
+            myMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+                myDays = ['Mon','Tue','Wed','Thu','Fri',"Sat",'Sun'];
                 var tgl = new Date();
                 detik = tgl.getSeconds();
                 menit = tgl.getMinutes();

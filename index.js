@@ -1280,7 +1280,7 @@ if (autobio === false) return
     if (new Date() * 1 - settingstatus > 1000) {
       let _uptime = process.uptime() * 1000;
       let uptimer = clockString(_uptime);
-      await alpha.setStatus(`I'm GOURAV 🤖 | Runtime ${uptimer} ⏲️ | ${status} send .menu for more more information `).catch((_) => _);
+      await alpha.setStatus(`I'm GOURAV 🤖 | Runtime ${uptimer} ⏲️ | ${status} send .menu for more information `).catch((_) => _);
       settingstatus = new Date() * 1;
     }}
 		mess = {
@@ -2369,7 +2369,7 @@ ini_anu =`${ucapannya2}
 ╰❒ Owner : ${isOwner ? 'True' : `False`}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `Bot is created by Gourav \n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -3144,8 +3144,7 @@ await limitAdd(sender, limit)
 					break   
 		    case 'take':
 		    case 'colong':
-		if (!isPremium) return sendButMessage(from, `Mohon maaf fitur ini khusus untuk user premium saja! Upgrade akun mu sekarang dengan cara ketik ${prefix}goprem`, `Click button below`, [{buttonId: 'goprem',buttonText: {displayText: `Upgrade Premium`,},type: 1,}],{quoted:mek});
-		if (!isQuotedSticker) return reply('```Reply stc nya```')
+		if (!isQuotedSticker) return reply('```Reply sticker ```')
 		            var encmedia_ = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
@@ -3158,7 +3157,6 @@ await limitAdd(sender, limit)
 			case 'stikerwm':
 			case 'stickerwm':
 		    case 'swm':
-		if (!isPremium) return sendButMessage(from, `Mohon maaf fitur ini khusus untuk user premium saja! Upgrade akun mu sekarang dengan cara ketik ${prefix}goprem`, `Click button below`, [{buttonId: 'goprem',buttonText: {displayText: `Upgrade Premium`,},type: 1,}],{quoted:mek});
 		            pe = args.join('')
 		            var a = pe.split("|")[0];
 		            var b = pe.split("|")[1];

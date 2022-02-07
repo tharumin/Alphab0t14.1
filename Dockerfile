@@ -23,7 +23,7 @@ RUN mkdir /Alphab0t10
 WORKDIR /Alphab0t10
 COPY . /Alphab0t10
 RUN python3 -m pip install -r /Alphab0t10/requirements.txt
-ENV TZ=Asia/Jakarta
+ENV TZ=Asia/Mumbai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN ls

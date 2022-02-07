@@ -185,7 +185,7 @@ let antihidetag = setting.antihidetag
 
 banChats = setting.self_mode
 autorespon = true
-offline = true
+offline = false
 readGc = false
 readPc = false 
 antitrol = false 
